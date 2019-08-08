@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Weather App</h1>
+      <button id="btn-chernigiv" class='btn activebtn' data-id="710718">check Chernigiv</button>
+      <button id="btn-kyyiv" class='btn' data-id="703447">check Kyyiv</button>
+      <button id="btn-vilnius" class='btn' data-id="593116">check Vilnius</button>
+    </div>
+    <div class="content">
+      <h2 class="city-name"></h2>
+      <table>
+        <tr>
+          <th>Temperature</th><td class="city-temperature"></td>
+        </tr>
+        <tr>
+          <th>Atmospheric pressure</th><td class="humidity"></td>
+        </tr>
+        <tr>
+          <th>Humidity</th><td class="atm-presure"></td>
+        </tr>
+        <tr>
+          <th>Wind speed</th><td class="wind-speed"></td>
+        </tr>
+        <tr>
+          <th>Wind direction</th><td class="wind-direction"></td>
+        </tr>
+        <tr>
+          <th>Icon</th><td class="icon"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script src="src/main.js"></script>
+</body>
+</html> 
